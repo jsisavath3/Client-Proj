@@ -17,7 +17,7 @@ void recvThread(SOCKET sock, char buff[4096]) {
 }
 
 int main() {
-	string ipAddress = "73.6.97.169";
+	string ipAddress = "127.0.0.1";
 	int port = 38000;
 
 	//initialize
